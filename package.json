@@ -1,0 +1,28 @@
+{
+  "name": "gamevm-cli",
+  "version": "0.0.1",
+  "description": "A VirtualBox manager to download and play Steam and later non-Steam games on Linux and MacOS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucakiebel/gamevm-cli.git"
+  },
+  "keywords": [
+    "Virtualization",
+    "VM",
+    "Games",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Steam"
+  ],
+  "author": "Luca Kiebel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucakiebel/gamevm-cli/issues"
+  },
+  "homepage": "https://github.com/lucakiebel/gamevm-cli#readme"
+}

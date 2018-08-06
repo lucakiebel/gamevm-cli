@@ -1,5 +1,5 @@
 {
-  "name": "gamevm-cli",
+  "name": "gamevm",
   "version": "0.0.1",
   "description": "A VirtualBox manager to download and play Steam and later non-Steam games on Linux and MacOS",
   "main": "app.js",
@@ -24,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/lucakiebel/gamevm-cli/issues"
   },
-  "homepage": "https://github.com/lucakiebel/gamevm-cli#readme"
+  "homepage": "https://github.com/lucakiebel/gamevm-cli#readme",
+  "dependencies": {
+    "appid": "^1.0.3",
+    "commander": "^2.17.0"
+  },
+  "preferGlobal": true,
+  "bin": "./app.js"
 }
